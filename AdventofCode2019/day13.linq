@@ -2,6 +2,7 @@
 
 void Main()
 {
+	//Part A what is on the screen?
 	var program = new long[10000];
 	var data = File.ReadAllLines(@"H:\Documents\LINQPad Queries\AdventofCode\AdventofCode\AdventofCode2019\day13a.txt").First().Split(',').Select(x => long.Parse(x)).ToArray();
 
